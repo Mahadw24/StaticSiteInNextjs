@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { RiProfileLine } from "react-icons/ri";
 import { AiOutlineCloudUpload } from "react-icons/ai";
-import sendEmail from "../api/sendEmail";
 import "../styles/global.css";
 
 function ContactSection() {
@@ -24,7 +23,6 @@ function ContactSection() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-        sendEmail(formData);
   };
 
   return (
