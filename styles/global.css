@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Add any other global styles */
+
+:root {
+  --color-para: #999999;
+  --color-yellow: #28e98c;
+  --color-bg: #1f1f1f;
+}
+
+.color-para {
+  color: var(--color-para);
+}
+
+.color-yellow {
+  color: var(--color-yellow);
+}
+
+.color-bg {
+  color: var(--color-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  color: white;
+  scroll-behavior: smooth;
+  transition: scroll-behavior 500ms ease-in-out;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.border-none:focus {
+  outline: none;
+  border: none;
+}
+
+.slow-rotation {
+  animation: spin 6s infinite linear;
+}
+
+.resume::after {
+  content: "" !important;
+  position: absolute !important;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #999999;
+  /* border: 2px solid yellow; */
+  border-radius: 50% !important;
+  left: 0px;
+  top: 7px !important;
+}
+.resume::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #333333;
+  border-radius: 50%;
+  left: 6px;
+  top: 7px;
+}
+
+.underline-hover {
+  transition: text-decoration 0.3s;
+}
+.p-8:hover .underline-hover {
+  text-decoration: underline;
+}

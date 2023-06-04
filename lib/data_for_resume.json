@@ -1,0 +1,83 @@
+{
+  "name": "Mahad",
+  "work": "Web Developer",
+  "email": "projects.mahadwaseem",
+  "residence": "Lahor, Pakistan",
+  "yearsofexperience": "2+",
+  "noofprojectscompleted": "40+",
+  "specializations": [{
+    "title":"Attention to Detail",
+    "description":"Pay close attention to detail, ensuring that the code is clean, well-structured, and follows best practices, strive for excellence in both functionality and aesthetics."
+  },
+{
+    "title":"Proficiency in Programming Languages",
+    "description":"I have a strong grasp of programming languages such as HTML, CSS, and JavaScript, which are fundamental for building and styling web pages."
+},
+{
+    "title":"Responsive Design",
+    "description":"I am skilled in creating responsive designs that adapt and display effectively across various screen sizes and devices."
+}],
+    "Advantages":[
+        {
+            "name":"HTML",
+            "percentage":"90%",
+            "Icon":"RiHtml5Fill"
+        },
+        {
+            "name":"CSS",
+            "percentage":"80%",
+            "Icon":"SiCss3"
+        },
+        {
+            "name":"Javascript",
+            "percentage":"85%",
+            "Icon":"DiJavascript"
+        },
+        {
+            "name":"Reactjs",
+            "percentage":"85%",
+            "Icon":"GrReactjs"
+        },
+        {
+            "name":"Nextjs",
+            "percentage":"80%",
+            "Icon":"TbBrandNextjs"
+
+        },
+        {
+            "name":"TailwindCSS",
+            "percentage":"90%",
+            "Icon": "SiTailwindcss"
+        }
+    ],
+    "projects":[
+        {
+            "name":"Facebook Clone",
+            "description":"Where you can login OR sign-up using firebase and post( text & img) realtime.",
+            "techused":[
+                "Reactjs","Firebase","TailwindCSS"
+            ]
+        },
+        {
+            "name":"Facebook Clone",
+            "description":"Where you can login OR sign-up using firebase and post( text & img) realtime.",
+            "techused":[
+                "Reactjs","Firebase","TailwindCSS"
+            ]
+        },
+        {
+            "name":"Facebook Clone",
+            "description":"Where you can login OR sign-up using firebase and post( text & img) realtime.",
+            "techused":[
+                "Reactjs","Firebase","TailwindCSS"
+            ]
+        },
+        {
+            "name":"Facebook Clone",
+            "description":"Where you can login OR sign-up using firebase and post( text & img) realtime.",
+            "techused":[
+                "Reactjs","Firebase","TailwindCSS"
+            ]
+        }
+    ]
+}
