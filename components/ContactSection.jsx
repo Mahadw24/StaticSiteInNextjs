@@ -23,6 +23,7 @@ function ContactSection() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+        // sendEmail(formData);
   };
 
   return (

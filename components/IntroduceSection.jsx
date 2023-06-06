@@ -16,8 +16,7 @@ function IntroducSection() {
         </div>
         <div className="">
           <h1 className="text-6xl xl:font-light xl:leading-[90px] leading-[60px] mb-4  md:text-[80px] md:leading-[80px] md:w-[850px]">
-            Say Hi from <span className="color-yellow">Mahad</span>, Web
-            Developer and Designer
+            Say Hi from <span className="color-yellow">Mahad</span>, Full Stack Web Developer
           </h1>
           <h1 className="color-para max-w-[480px]">
             I design and code beautifully simple things and i love what i do.
@@ -40,7 +39,7 @@ function IntroducSection() {
         <div className="flex">
           <div className="flex flex-col w-[100px] max-w-[400px] mr-20">
             <h1 className="mb-6 color-yellow text-5xl md:text-[60px] xl:text-[72px] xl:font-light">
-              10+
+              1+
             </h1>
             <h1 className="color-para text-sm md:text-md xl:text-[14px]">
               YEARS OF EXPERIENCE
@@ -48,10 +47,10 @@ function IntroducSection() {
           </div>
           <div className="w-[200px] max-w-[400px]">
             <h1 className="mb-6 color-yellow text-5xl md:text-[60px] xl:text-[72px] xl:font-light">
-              182+
+              20
             </h1>
             <h1 className="color-para text-sm md:text-md xl:text-[14px]">
-              PROJECTS COMPLETED ON 15 COUNTRIES
+              PROJECTS COMPLETED
             </h1>
           </div>
         </div>

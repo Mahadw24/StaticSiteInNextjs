@@ -15,7 +15,7 @@ function ResumeSection() {
             Education & <span className="color-yellow">Experience</span>
           </h1>
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <div className="resume ml-16">
             <div>
               <h1 className="color-para mb-6">June 2023 - Present</h1>
@@ -25,7 +25,7 @@ function ResumeSection() {
               <h1 className="color-para text-sm pb-4">ZIMO Group</h1>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="relative">
           <div className="resume ml-16 pb-10">
             <div>

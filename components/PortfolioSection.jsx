@@ -16,7 +16,45 @@ function PortfolioSection() {
         </div>
         <div className="flex flex-col xl:flex-row xl:flex-wrap gap-10">
           <div className="flex flex-col gap-3">
-            <div className="relative border border-[#999999] w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5">
+            <a
+              href="https://portfoliowebdeveloper.vercel.app/resume"
+              target="_blank"
+              className="relative border  w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5"
+            >
+              {/* <div className="relative border w-200 h-600 bg-[url(/facebookLoginImage.png)] bg-cover bg-center rounded-[40px] p-10"> */}
+              <div className="bottom-0 rounded-xl z-20  bg-transparent">
+                <img
+                  // src="/facebookProjectBackgroundImage.png"
+                  src="/portfolio.png"
+                  className="w-full h-full"
+                  alt=""
+                />
+              </div>
+              <div className="absolute bottom-6 left-8 flex gap-2">
+                <h1 className="rounded-full py-2 px-3 bg-white text-[#1F1F1F] w-max-[90px] text-sm">
+                  ReactJs
+                </h1>
+                <h1 className="rounded-full py-2 px-3 bg-white text-[#1F1F1F] w-max-[90px] text-sm">
+                  Firebase
+                </h1>
+                <h1 className="rounded-full py-2 px-3 bg-white text-[#1F1F1F] w-max-[90px] text-sm">
+                  SSG (NextJs)
+                </h1>
+              </div>
+            </a>
+            <div className="flex flex-col gap-2 ml-2">
+              <h1 className="text-2xl color-yellow">Portfolio</h1>
+              <p className="text-sm">
+                Portfolio built using nextjs static site generation technique.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-3 xl:w-[45%]">
+            <a
+              href="https://fb-clonereact.netlify.app/"
+              target="_blank"
+              className="relative border border-[#999999] w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5"
+            >
               {/* <div className="relative border w-200 h-600 bg-[url(/facebookLoginImage.png)] bg-cover bg-center rounded-[40px] p-10"> */}
               <div className="border-2 bottom-0 rounded-xl z-20 p-2 bg-white">
                 <img
@@ -36,7 +74,7 @@ function PortfolioSection() {
                   TailwindCSS
                 </h1>
               </div>
-            </div>
+            </a>
             <div className="flex flex-col gap-2 ml-2">
               <h1 className="text-2xl color-yellow">Facebook Clone</h1>
               <p className="text-sm">
@@ -46,14 +84,14 @@ function PortfolioSection() {
             </div>
           </div>
           <div className="flex flex-col gap-3 xl:w-[45%]">
-            <div className="relative border border-[#999999] w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5">
+            <a
+              href="https://reactamazon-clone.netlify.app/"
+              target="_blank"
+              className="relative border border-[#999999] w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5"
+            >
               {/* <div className="relative border w-200 h-600 bg-[url(/facebookLoginImage.png)] bg-cover bg-center rounded-[40px] p-10"> */}
               <div className="border-2 bottom-0 rounded-xl z-20 p-2 bg-white">
-                <img
-                  src="/facebookProjectBackgroundImage.png"
-                  className="w-full h-full"
-                  alt=""
-                />
+                <img src="/amazonclone.png" className="w-full h-full" alt="" />
               </div>
               <div className="absolute bottom-6 left-8 flex gap-2">
                 <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
@@ -66,72 +104,12 @@ function PortfolioSection() {
                   TailwindCSS
                 </h1>
               </div>
-            </div>
+            </a>
             <div className="flex flex-col gap-2 ml-2">
-              <h1 className="text-2xl color-yellow">Facebook Clone</h1>
+              <h1 className="text-2xl color-yellow">Amzon Clone</h1>
               <p className="text-sm">
-                Where you can login OR sign-up using firebase and post( text &
-                img) realtime.
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-3 xl:w-[45%]">
-            <div className="relative border border-[#999999] w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5">
-              {/* <div className="relative border w-200 h-600 bg-[url(/facebookLoginImage.png)] bg-cover bg-center rounded-[40px] p-10"> */}
-              <div className="border-2 bottom-0 rounded-xl z-20 p-2 bg-white">
-                <img
-                  src="/facebookProjectBackgroundImage.png"
-                  className="w-full h-full"
-                  alt=""
-                />
-              </div>
-              <div className="absolute bottom-6 left-8 flex gap-2">
-                <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
-                  ReactJs
-                </h1>
-                <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
-                  Firebase
-                </h1>
-                <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
-                  TailwindCSS
-                </h1>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2 ml-2">
-              <h1 className="text-2xl color-yellow">Facebook Clone</h1>
-              <p className="text-sm">
-                Where you can login OR sign-up using firebase and post( text &
-                img) realtime.
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-3">
-            <div className="relative border border-[#999999] w-200 h-600 bg-[#1F1F1F] rounded-[40px] p-5">
-              {/* <div className="relative border w-200 h-600 bg-[url(/facebookLoginImage.png)] bg-cover bg-center rounded-[40px] p-10"> */}
-              <div className="border-2 bottom-0 rounded-xl z-20 p-2 bg-white">
-                <img
-                  src="/facebookProjectBackgroundImage.png"
-                  className="w-full h-full"
-                  alt=""
-                />
-              </div>
-              <div className="absolute bottom-6 left-8 flex gap-2">
-                <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
-                  ReactJs
-                </h1>
-                <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
-                  Firebase
-                </h1>
-                <h1 className="rounded-full py-2 px-3 bg-[#1F1F1F] text-white w-max-[90px] text-sm">
-                  TailwindCSS
-                </h1>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2 ml-2">
-              <h1 className="text-2xl color-yellow">Facebook Clone</h1>
-              <p className="text-sm">
-                Where you can login OR sign-up using firebase and post( text &
-                img) realtime.
+                A simple e-commerce platform(clone) where you can buy products
+                and see that products in cart.
               </p>
             </div>
           </div>

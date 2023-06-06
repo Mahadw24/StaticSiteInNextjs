@@ -1,4 +1,8 @@
 import { RiProfileLine } from "react-icons/ri";
+import { AiFillHtml5 } from "react-icons/ai";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandNextjs } from "react-icons/tb";
 import { SiReact } from "react-icons/si";
 import "../styles/global.css";
 
@@ -18,40 +22,39 @@ function SkillSection() {
         <div className="w-100vw flex flex-wrap gap-x-6 gap-y-6 ">
           <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
             <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
+              <AiFillHtml5 className="text-[75px]" />
+              <p className="text-3xl color-yellow">90%</p>
+            </div>
+            <p>Html</p>
+          </div>
+          <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
+            <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
+              <IoLogoCss3 className="text-[75px]" />
+              <p className="text-3xl color-yellow">85%</p>
+            </div>
+            <p>Css</p>
+          </div>
+          <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
+            <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
+              <IoLogoJavascript className="text-[75px]" />
+              <p className="text-3xl color-yellow">70%</p>
+            </div>
+            <p>Javascript</p>
+          </div>
+          <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
+            <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
               <SiReact className="text-[75px]" />
-              <p className="text-3xl color-yellow">92%</p>
+              <p className="text-3xl color-yellow">70%</p>
             </div>
             <p>ReactJs</p>
           </div>
           <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
             <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
-              <SiReact className="text-[75px]" />
-              <p className="text-3xl color-yellow">92%</p>
+              <TbBrandNextjs className="text-[75px]" />
+              <p className="text-3xl color-yellow">65%</p>
             </div>
-            <p>ReactJs</p>
+            <p>NextJs</p>
           </div>
-          <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
-            <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
-              <SiReact className="text-[75px]" />
-              <p className="text-3xl color-yellow">92%</p>
-            </div>
-            <p>ReactJs</p>
-          </div>
-          <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
-            <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
-              <SiReact className="text-[75px]" />
-              <p className="text-3xl color-yellow">92%</p>
-            </div>
-            <p>ReactJs</p>
-          </div>
-          <div className="flex items-center  justify-center flex-col w-[45%] md:w-[170px] gap-3">
-            <div className="rounded-[90px] hover:border-[#28E98C] p-16 border-2 border-[#999999] w-[100%] gap-6 flex items-center flex-col justify-center h-[250px]">
-              <SiReact className="text-[75px]" />
-              <p className="text-3xl color-yellow">92%</p>
-            </div>
-            <p>ReactJs</p>
-          </div>
-          
         </div>
       </div>
     </>
